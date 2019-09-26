@@ -82,7 +82,7 @@ In that example above, the program will use data available from
 Local [MaxMind](https://dev.maxmind.com/geoip/geoip2/geolite2/) database files can be used with the MaxMind [GeoIP](https://github.com/maxmind/GeoIP2-python) library with the `--service` option:
 
 ```bash
-python3 pygeoipmap.py -i /tmp/ip.txt --service m --db /path/to/GeoLite2-City.mmdb
+python pygeoipmap.py -i /tmp/ip.txt --service m --db /path/to/GeoLite2-City.mmdb
 ```
 
 You can download and unzip a copy of the latest MaxMind database as follows:
